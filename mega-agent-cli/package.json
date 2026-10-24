@@ -1,0 +1,31 @@
+{
+  "name": "mega-agent-cli",
+  "version": "1.0.0",
+  "description": "Mega Agent CLI by Jules",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.5",
+    "gradient-string": "^2.0.2",
+    "ink": "^4.4.1",
+    "ink-select-input": "^5.0.0",
+    "openai": "^4.47.1",
+    "ora": "^5.4.1",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/gradient-string": "^1.1.3",
+    "@types/ink-select-input": "^4.2.4",
+    "@types/node": "^22.7.4",
+    "@types/react": "^18.3.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
